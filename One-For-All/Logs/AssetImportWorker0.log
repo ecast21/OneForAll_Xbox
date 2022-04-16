@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\2020.3.26f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Meloj/Downloads/OneForAll_In_Unity - Copie - Copie (3)/OneForAll_In_Unity - Copie - Copie (3)/One-For-All
+C:/Users/Meloj/OneDrive/Documents/GitHub/OneForAll_Xbox/One-For-All
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55817
-Successfully changed project path to: C:/Users/Meloj/Downloads/OneForAll_In_Unity - Copie - Copie (3)/OneForAll_In_Unity - Copie - Copie (3)/One-For-All
-C:/Users/Meloj/Downloads/OneForAll_In_Unity - Copie - Copie (3)/OneForAll_In_Unity - Copie - Copie (3)/One-For-All
+59447
+Successfully changed project path to: C:/Users/Meloj/OneDrive/Documents/GitHub/OneForAll_Xbox/One-For-All
+C:/Users/Meloj/OneDrive/Documents/GitHub/OneForAll_Xbox/One-For-All
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 42.93 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 44.12 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.26f1 (7298b473bc1a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Meloj/Downloads/OneForAll_In_Unity - Copie - Copie (3)/OneForAll_In_Unity - Copie - Copie (3)/One-For-All/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Meloj/OneDrive/Documents/GitHub/OneForAll_Xbox/One-For-All/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -35,92 +35,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56656
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001855 seconds.
+Registered in 0.002026 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 65.49 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 43.04 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.560 seconds
+- Completed reload, in  0.475 seconds
 Domain Reload Profiling:
-	ReloadAssembly (560ms)
-		BeginReloadAssembly (43ms)
+	ReloadAssembly (475ms)
+		BeginReloadAssembly (41ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (449ms)
-			LoadAssemblies (42ms)
+		EndReloadAssembly (372ms)
+			LoadAssemblies (40ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (167ms)
+			SetupTypeCache (118ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (157ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (149ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (66ms)
-				BeforeProcessingInitializeOnLoad (10ms)
-				ProcessInitializeOnLoadAttributes (57ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
+				RefreshPlugins (43ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (66ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004684 seconds.
+Registered in 0.004297 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 50.14 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 46.87 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.988 seconds
+- Completed reload, in  0.968 seconds
 Domain Reload Profiling:
-	ReloadAssembly (989ms)
-		BeginReloadAssembly (126ms)
+	ReloadAssembly (969ms)
+		BeginReloadAssembly (134ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (817ms)
-			LoadAssemblies (73ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (791ms)
+			LoadAssemblies (77ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (230ms)
+			SetupTypeCache (291ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (341ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (289ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (50ms)
-				BeforeProcessingInitializeOnLoad (73ms)
-				ProcessInitializeOnLoadAttributes (188ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				RefreshPlugins (47ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (154ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2204 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 97.5 MB.
-System memory in use after: 97.6 MB.
+System memory in use before: 96.6 MB.
+System memory in use after: 96.7 MB.
 
 Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2643.
-Total: 2.263900 ms (FindLiveObjects: 0.116900 ms CreateObjectMapping: 0.034700 ms MarkObjects: 2.057100 ms  DeleteObjects: 0.054100 ms)
+Total: 2.342800 ms (FindLiveObjects: 0.124000 ms CreateObjectMapping: 0.034600 ms MarkObjects: 2.126100 ms  DeleteObjects: 0.057100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,137 +134,641 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Intro.unity
-  artifactKey: Guid(e5c0f0ac59175ea408fc29b2d5658974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Intro.unity using Guid(e5c0f0ac59175ea408fc29b2d5658974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a74553e59cd42dc25b49a6857d72f503') in 0.017353 seconds 
-  Import took 0.020168 seconds .
+  path: Assets/Scenes/EnemyStaging.unity
+  artifactKey: Guid(f566f066832ec714cb679d9948f84ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/EnemyStaging.unity using Guid(f566f066832ec714cb679d9948f84ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d20df6513c0303a44414ffe63a3586c') in 0.016637 seconds 
+  Import took 0.019439 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Scenes/PlayerStaging.unity
-  artifactKey: Guid(5e769b4543886db4ab9f069df1bd2353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/PlayerStaging.unity using Guid(5e769b4543886db4ab9f069df1bd2353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf774bc4bdee1c618ee3329247e850f') in 0.007208 seconds 
-  Import took 0.010162 seconds .
+  Time since last request: 8.811290 seconds.
+  path: Assets/AllForOne/Prefabs/Enemy
+  artifactKey: Guid(56340fe2315c2ea468a5c2359e6dd797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllForOne/Prefabs/Enemy using Guid(56340fe2315c2ea468a5c2359e6dd797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46a7ff2f237165a6bf26d94700b9245b') in 0.007345 seconds 
+  Import took 0.010745 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 53.405952 seconds.
-  path: Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet
-  artifactKey: Guid(cb4bf0d4e220bd845a3e02286b0dd42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet using Guid(cb4bf0d4e220bd845a3e02286b0dd42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '568d389ef12c3b673b6f16c4c19490bf') in 0.007142 seconds 
-  Import took 0.010011 seconds .
+  Time since last request: 70.470377 seconds.
+  path: Assets/AllForOne/Player/Prefab/Player.prefab
+  artifactKey: Guid(110c37b3dd9c8214b99bc8675f82fede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllForOne/Player/Prefab/Player.prefab using Guid(110c37b3dd9c8214b99bc8675f82fede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '294cbb61a452d0bb5871a24e00ff11f9') in 0.084433 seconds 
+  Import took 0.088932 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.061107 seconds.
-  path: Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_00_delay-0.03s.png
-  artifactKey: Guid(cc0fc0b83ad0ec64db18ddcadd48f3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_00_delay-0.03s.png using Guid(cc0fc0b83ad0ec64db18ddcadd48f3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '469d214cf4f58020a8e5dc47894b7432') in 0.100949 seconds 
-  Import took 0.103925 seconds .
+  Time since last request: 44.947031 seconds.
+  path: Assets/Eddie's Folder
+  artifactKey: Guid(c1bc79e5712f6f1479bbc625a886f6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eddie's Folder using Guid(c1bc79e5712f6f1479bbc625a886f6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948ae5e025f669cfc21e9a57c00f73b5') in 0.008018 seconds 
+  Import took 0.011106 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000343 seconds.
-  path: Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_05_delay-0.03s.png
-  artifactKey: Guid(c59aefc7d377ecd4bb1fa31872a5ff20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_05_delay-0.03s.png using Guid(c59aefc7d377ecd4bb1fa31872a5ff20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d10992291c3c856b2e4047e24815b3') in 0.025184 seconds 
-  Import took 0.028017 seconds .
+  Time since last request: 9.591000 seconds.
+  path: Assets/Eddie's Folder/Scripts
+  artifactKey: Guid(0552f56433c0f1a419280263517e9560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eddie's Folder/Scripts using Guid(0552f56433c0f1a419280263517e9560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a10938b8cae5231f62cb028b2378ea') in 0.009531 seconds 
+  Import took 0.014531 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_08_delay-0.03s.png
-  artifactKey: Guid(f0127a81cb3f677478ac2ad3cf251807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_08_delay-0.03s.png using Guid(f0127a81cb3f677478ac2ad3cf251807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a0cfaae00c1fa0f691770228035287') in 0.029808 seconds 
-  Import took 0.033153 seconds .
+  Time since last request: 5.687193 seconds.
+  path: Assets/Eddie's Folder/Prefabs
+  artifactKey: Guid(6bc1823469e88764e91a6f6c8bd8651c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eddie's Folder/Prefabs using Guid(6bc1823469e88764e91a6f6c8bd8651c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fefb99c2517f228cc2e1a9fa5281d209') in 0.007977 seconds 
+  Import took 0.011050 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_12_delay-0.03s.png
-  artifactKey: Guid(65cda4f4c3ed00b4493f168d78dc2d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_12_delay-0.03s.png using Guid(65cda4f4c3ed00b4493f168d78dc2d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79c1e60cc82657ca1b47d765e35f5f39') in 0.030368 seconds 
-  Import took 0.034101 seconds .
+  Time since last request: 22.315965 seconds.
+  path: Assets/Eddie's Folder/Animations
+  artifactKey: Guid(d96a38157e19bf548a2db0ec6ec921d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eddie's Folder/Animations using Guid(d96a38157e19bf548a2db0ec6ec921d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6da92b62f1143555fc81c9a0cfdae72') in 0.006954 seconds 
+  Import took 0.010241 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_07_delay-0.03s.png
-  artifactKey: Guid(9ebc61c4d8e7dab4d91b0864c1fc7942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_07_delay-0.03s.png using Guid(9ebc61c4d8e7dab4d91b0864c1fc7942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45604c82e5633e90d89e8eb0c6fb73be') in 0.031966 seconds 
-  Import took 0.035826 seconds .
+  Time since last request: 23.958806 seconds.
+  path: Assets/Eddie's Folder/Artwork
+  artifactKey: Guid(c6a7821987ab56742801a23062e2a343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eddie's Folder/Artwork using Guid(c6a7821987ab56742801a23062e2a343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6b8eae7323f606e6300a3157cd630b6') in 0.007267 seconds 
+  Import took 0.010241 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_04_delay-0.03s.png
-  artifactKey: Guid(5311bf73ef470ed4287028410a01b7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_04_delay-0.03s.png using Guid(5311bf73ef470ed4287028410a01b7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab497d9b9509e3809f5799f43e1e4fd') in 0.030649 seconds 
-  Import took 0.034010 seconds .
+  Time since last request: 166.237598 seconds.
+  path: Assets/Eddie's Folder/Artwork/Enemy-Attack-Sheet
+  artifactKey: Guid(365884094cf2a7e49b90b168a043aa15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eddie's Folder/Artwork/Enemy-Attack-Sheet using Guid(365884094cf2a7e49b90b168a043aa15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c97f72063c1e21d1f98d4dd9a1a76f1f') in 0.007910 seconds 
+  Import took 0.011003 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000379 seconds.
-  path: Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_10_delay-0.03s.png
-  artifactKey: Guid(bce4287c8d9410c4bae328b5272fd607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_10_delay-0.03s.png using Guid(bce4287c8d9410c4bae328b5272fd607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7825616af1e6a91a8294dd04eefa543e') in 0.030715 seconds 
-  Import took 0.034872 seconds .
+  Time since last request: 0.028637 seconds.
+  path: Assets/Eddie's Folder/Artwork/Enemy-Attack-Sheet/frame_00_delay-0.03s.png
+  artifactKey: Guid(9f8692ac20139bf40bb2429ea1fcecb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eddie's Folder/Artwork/Enemy-Attack-Sheet/frame_00_delay-0.03s.png using Guid(9f8692ac20139bf40bb2429ea1fcecb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eea757cf6373da4afa420f102447b6a') in 0.038633 seconds 
+  Import took 0.044094 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_06_delay-0.03s.png
-  artifactKey: Guid(d50dfba58e2ffb644bb470342ac435a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_06_delay-0.03s.png using Guid(d50dfba58e2ffb644bb470342ac435a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8d63a1f6398925351bf354dc4b7d651') in 0.025757 seconds 
-  Import took 0.029642 seconds .
+  Time since last request: 0.000763 seconds.
+  path: Assets/Eddie's Folder/Artwork/Enemy-Attack-Sheet/frame_06_delay-0.03s.png
+  artifactKey: Guid(88bce743faa296d4bb30e810abeaac80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eddie's Folder/Artwork/Enemy-Attack-Sheet/frame_06_delay-0.03s.png using Guid(88bce743faa296d4bb30e810abeaac80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d655cf25a6499d1dc300c6be93c2042') in 0.022067 seconds 
+  Import took 0.027134 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_02_delay-0.03s.png
-  artifactKey: Guid(909fd63dab52f1343899e5842eef1a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_02_delay-0.03s.png using Guid(909fd63dab52f1343899e5842eef1a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '253b9fb61b4b77e4b62faa36013ac169') in 0.030969 seconds 
-  Import took 0.034791 seconds .
+  Time since last request: 0.000292 seconds.
+  path: Assets/Eddie's Folder/Artwork/Enemy-Attack-Sheet/frame_11_delay-0.03s.png
+  artifactKey: Guid(e595c60ef8256d34b8dd361e917bb2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eddie's Folder/Artwork/Enemy-Attack-Sheet/frame_11_delay-0.03s.png using Guid(e595c60ef8256d34b8dd361e917bb2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a87d0fadd09b3cda084881f6dea13a8') in 0.021382 seconds 
+  Import took 0.025354 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_01_delay-0.03s.png
-  artifactKey: Guid(ab04c67f1d119464d86296f0f3a0ea4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_01_delay-0.03s.png using Guid(ab04c67f1d119464d86296f0f3a0ea4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b196ffdf11c764c659d98d4f3c4fda') in 0.026044 seconds 
-  Import took 0.030094 seconds .
+  Time since last request: 0.000286 seconds.
+  path: Assets/Eddie's Folder/Artwork/Enemy-Attack-Sheet/frame_10_delay-0.03s.png
+  artifactKey: Guid(39fccef2acbef2047a3f74aa5a7575ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eddie's Folder/Artwork/Enemy-Attack-Sheet/frame_10_delay-0.03s.png using Guid(39fccef2acbef2047a3f74aa5a7575ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8282aa9827e4f557775c573d6b6bae2e') in 0.027103 seconds 
+  Import took 0.030404 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_09_delay-0.03s.png
-  artifactKey: Guid(f198a0d0840140943a90fb53a691bb47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_09_delay-0.03s.png using Guid(f198a0d0840140943a90fb53a691bb47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ccbb92eb643a703db81eca245a59994') in 0.030791 seconds 
-  Import took 0.033971 seconds .
+  Time since last request: 0.000288 seconds.
+  path: Assets/Eddie's Folder/Artwork/Enemy-Attack-Sheet/frame_02_delay-0.03s.png
+  artifactKey: Guid(cf2efdea3f270c243b79c3fbdc23e34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eddie's Folder/Artwork/Enemy-Attack-Sheet/frame_02_delay-0.03s.png using Guid(cf2efdea3f270c243b79c3fbdc23e34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a7825c6b25f6ec57dd7b566970d64e2') in 0.028281 seconds 
+  Import took 0.031814 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000281 seconds.
-  path: Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_11_delay-0.03s.png
-  artifactKey: Guid(124e8485b825f3344b1821d72271102e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_11_delay-0.03s.png using Guid(124e8485b825f3344b1821d72271102e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fed75e0c2b6b0736451ca177c347526a') in 0.031113 seconds 
-  Import took 0.035019 seconds .
+  path: Assets/Eddie's Folder/Artwork/Enemy-Attack-Sheet/frame_12_delay-0.03s.png
+  artifactKey: Guid(aa84806c8558ae54e80495bf70640364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eddie's Folder/Artwork/Enemy-Attack-Sheet/frame_12_delay-0.03s.png using Guid(aa84806c8558ae54e80495bf70640364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a56583341c7aebaab38992b22336fd3') in 0.025709 seconds 
+  Import took 0.029335 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000346 seconds.
-  path: Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_03_delay-0.03s.png
-  artifactKey: Guid(3fd49f01baa9430448bdee551e713323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_03_delay-0.03s.png using Guid(3fd49f01baa9430448bdee551e713323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d7c324a89c847f348295d98960ae45') in 0.027265 seconds 
-  Import took 0.030854 seconds .
+  Time since last request: 0.000243 seconds.
+  path: Assets/Eddie's Folder/Artwork/Enemy-Attack-Sheet/frame_04_delay-0.03s.png
+  artifactKey: Guid(5094b0a2612f37e4f8483013b425e44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eddie's Folder/Artwork/Enemy-Attack-Sheet/frame_04_delay-0.03s.png using Guid(5094b0a2612f37e4f8483013b425e44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f290502b4d413091139d18f61001068') in 0.028546 seconds 
+  Import took 0.031976 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.808979 seconds.
-  path: Assets/AllForOne/Enemy/EnemyAnimations/Enemy.controller
-  artifactKey: Guid(434818596cbb375448f7f8725b27a5f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllForOne/Enemy/EnemyAnimations/Enemy.controller using Guid(434818596cbb375448f7f8725b27a5f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9454a1d4607554d9641b64f9f1cf2c6') in 0.012486 seconds 
-  Import took 0.016677 seconds .
+  Time since last request: 0.000242 seconds.
+  path: Assets/Eddie's Folder/Artwork/Enemy-Attack-Sheet/frame_09_delay-0.03s.png
+  artifactKey: Guid(e3c9782094f03044aaa1f098cb88edbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eddie's Folder/Artwork/Enemy-Attack-Sheet/frame_09_delay-0.03s.png using Guid(e3c9782094f03044aaa1f098cb88edbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b99df5fe731ff345f9025a1737dd536') in 0.025812 seconds 
+  Import took 0.029754 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Eddie's Folder/Artwork/Enemy-Attack-Sheet/frame_05_delay-0.03s.png
+  artifactKey: Guid(78b5ef340d1f4194aa91d055ecf283fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eddie's Folder/Artwork/Enemy-Attack-Sheet/frame_05_delay-0.03s.png using Guid(78b5ef340d1f4194aa91d055ecf283fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f840ccc732da36f72c644095f6b2b1d8') in 0.027179 seconds 
+  Import took 0.031139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Eddie's Folder/Artwork/Enemy-Attack-Sheet/frame_03_delay-0.03s.png
+  artifactKey: Guid(4954b116a3a69964cbabfa62e0d37c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eddie's Folder/Artwork/Enemy-Attack-Sheet/frame_03_delay-0.03s.png using Guid(4954b116a3a69964cbabfa62e0d37c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6223c11d698bc2e50887ac1493dd18e') in 0.025920 seconds 
+  Import took 0.028914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Eddie's Folder/Artwork/Enemy-Attack-Sheet/frame_08_delay-0.03s.png
+  artifactKey: Guid(6f1d517b9e64ecd4494da204a900f134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eddie's Folder/Artwork/Enemy-Attack-Sheet/frame_08_delay-0.03s.png using Guid(6f1d517b9e64ecd4494da204a900f134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb6e36c3a9ad54828abbe238d2286240') in 0.027040 seconds 
+  Import took 0.030578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Eddie's Folder/Artwork/Enemy-Attack-Sheet/frame_01_delay-0.03s.png
+  artifactKey: Guid(9ec117541c4a6e641a3db3bdcaa9fb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eddie's Folder/Artwork/Enemy-Attack-Sheet/frame_01_delay-0.03s.png using Guid(9ec117541c4a6e641a3db3bdcaa9fb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca1e36a1c6e669ae090ff8e48070b424') in 0.026144 seconds 
+  Import took 0.029742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Eddie's Folder/Artwork/Enemy-Attack-Sheet/frame_07_delay-0.03s.png
+  artifactKey: Guid(caa70de769df89d478d016b414f44d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eddie's Folder/Artwork/Enemy-Attack-Sheet/frame_07_delay-0.03s.png using Guid(caa70de769df89d478d016b414f44d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a01048b937c4dd3f1c347adcb2693b') in 0.019078 seconds 
+  Import took 0.022234 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004178 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.843 seconds
+Domain Reload Profiling:
+	ReloadAssembly (844ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (683ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (236ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (261ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (149ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2193 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.0 MB.
+System memory in use after: 99.1 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2655.
+Total: 2.268300 ms (FindLiveObjects: 0.183900 ms CreateObjectMapping: 0.051900 ms MarkObjects: 2.015700 ms  DeleteObjects: 0.015400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 26.751405 seconds.
+  path: Assets/Eddie's Folder/Artwork/Enemy-Walk-Sheet
+  artifactKey: Guid(69c83493dd2410440b2fb00366a3dd7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eddie's Folder/Artwork/Enemy-Walk-Sheet using Guid(69c83493dd2410440b2fb00366a3dd7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe053676bf05bfdc66d7678e6a9f49f') in 0.009097 seconds 
+  Import took 0.012411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043821 seconds.
+  path: Assets/Eddie's Folder/Artwork/Enemy-Walk-Sheet/frame_00_delay-0.03s.png
+  artifactKey: Guid(28dcf8a91d5f62d46a26cee3d9e8b22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eddie's Folder/Artwork/Enemy-Walk-Sheet/frame_00_delay-0.03s.png using Guid(28dcf8a91d5f62d46a26cee3d9e8b22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e5353cc6fb1ae8dfbe9f1d9d7f0636c') in 0.047534 seconds 
+  Import took 0.052231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Eddie's Folder/Artwork/Enemy-Walk-Sheet/frame_03_delay-0.03s.png
+  artifactKey: Guid(5a80a4467eb35ac4f977d9619d04d22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eddie's Folder/Artwork/Enemy-Walk-Sheet/frame_03_delay-0.03s.png using Guid(5a80a4467eb35ac4f977d9619d04d22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a5065d75cd6d13a9dfb5a6bb1e5dea') in 0.020914 seconds 
+  Import took 0.023788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Eddie's Folder/Artwork/Enemy-Walk-Sheet/frame_05_delay-0.03s.png
+  artifactKey: Guid(d5bc4d11211588644a4ba54c5bb345c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eddie's Folder/Artwork/Enemy-Walk-Sheet/frame_05_delay-0.03s.png using Guid(d5bc4d11211588644a4ba54c5bb345c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c683068e4c4623f57aa2bc9915604b') in 0.027454 seconds 
+  Import took 0.030362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Eddie's Folder/Artwork/Enemy-Walk-Sheet/frame_04_delay-0.03s.png
+  artifactKey: Guid(62721cc898ab3184aaea9e8b327b31f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eddie's Folder/Artwork/Enemy-Walk-Sheet/frame_04_delay-0.03s.png using Guid(62721cc898ab3184aaea9e8b327b31f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a62386c99f06caac7177d330ae853a18') in 0.030502 seconds 
+  Import took 0.033526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Eddie's Folder/Artwork/Enemy-Walk-Sheet/frame_01_delay-0.03s.png
+  artifactKey: Guid(0f9e3c92dc0e7de4f9b7d742075f6f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eddie's Folder/Artwork/Enemy-Walk-Sheet/frame_01_delay-0.03s.png using Guid(0f9e3c92dc0e7de4f9b7d742075f6f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b91db188d1a6536ecfd93aa511920d4') in 0.029507 seconds 
+  Import took 0.033064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Eddie's Folder/Artwork/Enemy-Walk-Sheet/frame_06_delay-0.03s.png
+  artifactKey: Guid(cbb621f2695bc3441879e5fed0fa8c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eddie's Folder/Artwork/Enemy-Walk-Sheet/frame_06_delay-0.03s.png using Guid(cbb621f2695bc3441879e5fed0fa8c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b27f0a45d0f4b13974960a0f8096c196') in 0.029166 seconds 
+  Import took 0.032089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Eddie's Folder/Artwork/Enemy-Walk-Sheet/frame_02_delay-0.03s.png
+  artifactKey: Guid(783588312533efa48bd6dea58bc64133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eddie's Folder/Artwork/Enemy-Walk-Sheet/frame_02_delay-0.03s.png using Guid(783588312533efa48bd6dea58bc64133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9828a4384b76753b3604499499548067') in 0.032242 seconds 
+  Import took 0.035613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Eddie's Folder/Artwork/Enemy-Walk-Sheet/frame_07_delay-0.03s.png
+  artifactKey: Guid(8e5b6233cf16d864a9b7455ce1a79632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eddie's Folder/Artwork/Enemy-Walk-Sheet/frame_07_delay-0.03s.png using Guid(8e5b6233cf16d864a9b7455ce1a79632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1adb144abf908538b6b96b418f1a4ccb') in 0.028691 seconds 
+  Import took 0.032578 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003385 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.935 seconds
+Domain Reload Profiling:
+	ReloadAssembly (936ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (746ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (253ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (276ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (168ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2193 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.0 MB.
+System memory in use after: 99.2 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2660.
+Total: 2.759900 ms (FindLiveObjects: 0.364200 ms CreateObjectMapping: 0.118900 ms MarkObjects: 2.259400 ms  DeleteObjects: 0.016100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018521 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.003 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1004ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (814ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (303ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (291ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (174ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2193 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.1 MB.
+System memory in use after: 99.2 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2662.
+Total: 2.307400 ms (FindLiveObjects: 0.147300 ms CreateObjectMapping: 0.034300 ms MarkObjects: 2.108000 ms  DeleteObjects: 0.016300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003726 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.851 seconds
+Domain Reload Profiling:
+	ReloadAssembly (852ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (707ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (263ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (257ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (163ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2193 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.1 MB.
+System memory in use after: 99.2 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2664.
+Total: 8.223300 ms (FindLiveObjects: 0.395400 ms CreateObjectMapping: 0.177600 ms MarkObjects: 7.634500 ms  DeleteObjects: 0.013900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 415.679467 seconds.
+  path: Assets/Eddie's Folder/Prefabs/MechEnemy.prefab
+  artifactKey: Guid(a70dc2a430617734fba09e2e6f328a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eddie's Folder/Prefabs/MechEnemy.prefab using Guid(a70dc2a430617734fba09e2e6f328a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (MechEnemy) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (MechEnemy) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: 'c9961ee3d17c05727122c6d020454d04') in 0.058790 seconds 
+  Import took 0.061900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.953685 seconds.
+  path: Assets/Eddie's Folder/Prefabs/MechEnemy.prefab
+  artifactKey: Guid(a70dc2a430617734fba09e2e6f328a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eddie's Folder/Prefabs/MechEnemy.prefab using Guid(a70dc2a430617734fba09e2e6f328a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (MechEnemy) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (MechEnemy) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: 'b0f9b241c12076c5900f612118c2e545') in 0.022366 seconds 
+  Import took 0.025459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.656018 seconds.
+  path: Assets/Eddie's Folder/Prefabs/MechEnemy.prefab
+  artifactKey: Guid(a70dc2a430617734fba09e2e6f328a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eddie's Folder/Prefabs/MechEnemy.prefab using Guid(a70dc2a430617734fba09e2e6f328a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (MechEnemy) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (MechEnemy) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: 'e613950de6dc20431b2e496c6dbc0c8c') in 0.023058 seconds 
+  Import took 0.026348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 116.793191 seconds.
+  path: Assets/Eddie's Folder/Scripts/EnemyAI.cs
+  artifactKey: Guid(4b4afee70037f644badc4227689cad4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eddie's Folder/Scripts/EnemyAI.cs using Guid(4b4afee70037f644badc4227689cad4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b93feefd6aa51b538ce00ae05d9b061') in 0.028421 seconds 
+  Import took 0.031407 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004309 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.829 seconds
+Domain Reload Profiling:
+	ReloadAssembly (829ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (679ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (244ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (245ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (148ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2194 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.3 MB.
+System memory in use after: 99.4 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2668.
+Total: 2.558900 ms (FindLiveObjects: 0.118900 ms CreateObjectMapping: 0.034500 ms MarkObjects: 2.387800 ms  DeleteObjects: 0.016600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

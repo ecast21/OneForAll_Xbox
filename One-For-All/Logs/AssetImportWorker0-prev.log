@@ -15,11 +15,11 @@ C:/Users/Meloj/Downloads/OneForAll_In_Unity - Copie - Copie (3)/OneForAll_In_Uni
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53642
+55817
 Successfully changed project path to: C:/Users/Meloj/Downloads/OneForAll_In_Unity - Copie - Copie (3)/OneForAll_In_Unity - Copie - Copie (3)/One-For-All
 C:/Users/Meloj/Downloads/OneForAll_In_Unity - Copie - Copie (3)/OneForAll_In_Unity - Copie - Copie (3)/One-For-All
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 53.67 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 42.93 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.26f1 (7298b473bc1a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
@@ -35,92 +35,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56800
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56656
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003149 seconds.
+Registered in 0.001855 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 49.35 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 65.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.546 seconds
+- Completed reload, in  0.560 seconds
 Domain Reload Profiling:
-	ReloadAssembly (546ms)
-		BeginReloadAssembly (53ms)
+	ReloadAssembly (560ms)
+		BeginReloadAssembly (43ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (422ms)
-			LoadAssemblies (51ms)
+		EndReloadAssembly (449ms)
+			LoadAssemblies (42ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (127ms)
+			SetupTypeCache (167ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (174ms)
+			SetupLoadedEditorAssemblies (157ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (49ms)
-				BeforeProcessingInitializeOnLoad (11ms)
-				ProcessInitializeOnLoadAttributes (79ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
+				RefreshPlugins (66ms)
+				BeforeProcessingInitializeOnLoad (10ms)
+				ProcessInitializeOnLoadAttributes (57ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005103 seconds.
+Registered in 0.004684 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 56.13 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 50.14 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.007 seconds
+- Completed reload, in  0.988 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1008ms)
-		BeginReloadAssembly (115ms)
+	ReloadAssembly (989ms)
+		BeginReloadAssembly (126ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (843ms)
-			LoadAssemblies (85ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (817ms)
+			LoadAssemblies (73ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (247ms)
-			ReleaseScriptCaches (1ms)
+			SetupTypeCache (230ms)
+			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (348ms)
+			SetupLoadedEditorAssemblies (341ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (56ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (187ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				RefreshPlugins (50ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (188ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2204 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 97.5 MB.
 System memory in use after: 97.6 MB.
 
 Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2643.
-Total: 2.691400 ms (FindLiveObjects: 0.157700 ms CreateObjectMapping: 0.075900 ms MarkObjects: 2.394400 ms  DeleteObjects: 0.062200 ms)
+Total: 2.263900 ms (FindLiveObjects: 0.116900 ms CreateObjectMapping: 0.034700 ms MarkObjects: 2.057100 ms  DeleteObjects: 0.054100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,412 +134,137 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefab/Enemy.prefab
-  artifactKey: Guid(f150cba88b9b4df4fac9a66ad67678ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Enemy.prefab using Guid(f150cba88b9b4df4fac9a66ad67678ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb51812e57460a351db7ea8eedcfe7e4') in 0.048050 seconds 
-  Import took 0.052779 seconds .
+  path: Assets/Scenes/Intro.unity
+  artifactKey: Guid(e5c0f0ac59175ea408fc29b2d5658974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Intro.unity using Guid(e5c0f0ac59175ea408fc29b2d5658974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a74553e59cd42dc25b49a6857d72f503') in 0.017353 seconds 
+  Import took 0.020168 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.609456 seconds.
-  path: Assets/AllForOne/Enemy/Enemy-Attack-Sheet
-  artifactKey: Guid(c92a7b67de445144bbf77b27614dd47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllForOne/Enemy/Enemy-Attack-Sheet using Guid(c92a7b67de445144bbf77b27614dd47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e699884538fd815a2cb7ddc1e2814c8d') in 0.009946 seconds 
-  Import took 0.015598 seconds .
+  Time since last request: 0.000291 seconds.
+  path: Assets/Scenes/PlayerStaging.unity
+  artifactKey: Guid(5e769b4543886db4ab9f069df1bd2353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PlayerStaging.unity using Guid(5e769b4543886db4ab9f069df1bd2353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf774bc4bdee1c618ee3329247e850f') in 0.007208 seconds 
+  Import took 0.010162 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.367015 seconds.
-  path: Assets/AllForOne/Enemy/Enemy-Walk-Sheet/frame_00_delay-0.03s.png
-  artifactKey: Guid(bba8c4b86e807a74e87eb7222745b37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllForOne/Enemy/Enemy-Walk-Sheet/frame_00_delay-0.03s.png using Guid(bba8c4b86e807a74e87eb7222745b37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ae6f664302d3f907d24ea718a78fec7') in 0.085433 seconds 
-  Import took 0.090326 seconds .
+  Time since last request: 53.405952 seconds.
+  path: Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet
+  artifactKey: Guid(cb4bf0d4e220bd845a3e02286b0dd42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet using Guid(cb4bf0d4e220bd845a3e02286b0dd42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '568d389ef12c3b673b6f16c4c19490bf') in 0.007142 seconds 
+  Import took 0.010011 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000598 seconds.
-  path: Assets/AllForOne/Enemy/Enemy-Walk-Sheet/frame_05_delay-0.03s.png
-  artifactKey: Guid(dfcda330cbcaf6d4b92dbbdc6d4fd397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllForOne/Enemy/Enemy-Walk-Sheet/frame_05_delay-0.03s.png using Guid(dfcda330cbcaf6d4b92dbbdc6d4fd397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed4dfe685880405191f25080eb44a33d') in 0.030806 seconds 
-  Import took 0.034851 seconds .
+  Time since last request: 0.061107 seconds.
+  path: Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_00_delay-0.03s.png
+  artifactKey: Guid(cc0fc0b83ad0ec64db18ddcadd48f3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_00_delay-0.03s.png using Guid(cc0fc0b83ad0ec64db18ddcadd48f3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '469d214cf4f58020a8e5dc47894b7432') in 0.100949 seconds 
+  Import took 0.103925 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000385 seconds.
-  path: Assets/AllForOne/Enemy/Enemy-Walk-Sheet/frame_06_delay-0.03s.png
-  artifactKey: Guid(98357a5d576104f49bfb6041270fa551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllForOne/Enemy/Enemy-Walk-Sheet/frame_06_delay-0.03s.png using Guid(98357a5d576104f49bfb6041270fa551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2347d16c595bf48da6d5c10b54f31ee6') in 0.023126 seconds 
-  Import took 0.027379 seconds .
+  Time since last request: 0.000343 seconds.
+  path: Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_05_delay-0.03s.png
+  artifactKey: Guid(c59aefc7d377ecd4bb1fa31872a5ff20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_05_delay-0.03s.png using Guid(c59aefc7d377ecd4bb1fa31872a5ff20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d10992291c3c856b2e4047e24815b3') in 0.025184 seconds 
+  Import took 0.028017 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000669 seconds.
-  path: Assets/AllForOne/Enemy/Enemy-Walk-Sheet/frame_07_delay-0.03s.png
-  artifactKey: Guid(4d64b2be380cf514ba9a3007a8bc7b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllForOne/Enemy/Enemy-Walk-Sheet/frame_07_delay-0.03s.png using Guid(4d64b2be380cf514ba9a3007a8bc7b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88170d40ea6e61d2b7a0abc522c4d8e7') in 0.020822 seconds 
-  Import took 0.027323 seconds .
+  Time since last request: 0.000217 seconds.
+  path: Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_08_delay-0.03s.png
+  artifactKey: Guid(f0127a81cb3f677478ac2ad3cf251807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_08_delay-0.03s.png using Guid(f0127a81cb3f677478ac2ad3cf251807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a0cfaae00c1fa0f691770228035287') in 0.029808 seconds 
+  Import took 0.033153 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000736 seconds.
-  path: Assets/AllForOne/Enemy/Enemy-Walk-Sheet/frame_02_delay-0.03s.png
-  artifactKey: Guid(b5fbe40dc7667c5499ff4b5a7bfd4141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllForOne/Enemy/Enemy-Walk-Sheet/frame_02_delay-0.03s.png using Guid(b5fbe40dc7667c5499ff4b5a7bfd4141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f78ca8739453fe87841949f2270577') in 0.024026 seconds 
-  Import took 0.028869 seconds .
+  Time since last request: 0.000289 seconds.
+  path: Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_12_delay-0.03s.png
+  artifactKey: Guid(65cda4f4c3ed00b4493f168d78dc2d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_12_delay-0.03s.png using Guid(65cda4f4c3ed00b4493f168d78dc2d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79c1e60cc82657ca1b47d765e35f5f39') in 0.030368 seconds 
+  Import took 0.034101 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000431 seconds.
-  path: Assets/AllForOne/Enemy/Enemy-Walk-Sheet/frame_03_delay-0.03s.png
-  artifactKey: Guid(646dad186cbb6d24796cd6d6ac272e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllForOne/Enemy/Enemy-Walk-Sheet/frame_03_delay-0.03s.png using Guid(646dad186cbb6d24796cd6d6ac272e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd614348a430078af38fff144e9d51c30') in 0.023460 seconds 
-  Import took 0.031322 seconds .
+  Time since last request: 0.000251 seconds.
+  path: Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_07_delay-0.03s.png
+  artifactKey: Guid(9ebc61c4d8e7dab4d91b0864c1fc7942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_07_delay-0.03s.png using Guid(9ebc61c4d8e7dab4d91b0864c1fc7942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45604c82e5633e90d89e8eb0c6fb73be') in 0.031966 seconds 
+  Import took 0.035826 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000745 seconds.
-  path: Assets/AllForOne/Enemy/Enemy-Walk-Sheet/frame_04_delay-0.03s.png
-  artifactKey: Guid(c5e286349dcc7e943add6c77f933a595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllForOne/Enemy/Enemy-Walk-Sheet/frame_04_delay-0.03s.png using Guid(c5e286349dcc7e943add6c77f933a595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e195ca65a27e5adede6ad56360f03cb') in 0.024387 seconds 
-  Import took 0.030678 seconds .
+  Time since last request: 0.000291 seconds.
+  path: Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_04_delay-0.03s.png
+  artifactKey: Guid(5311bf73ef470ed4287028410a01b7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_04_delay-0.03s.png using Guid(5311bf73ef470ed4287028410a01b7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab497d9b9509e3809f5799f43e1e4fd') in 0.030649 seconds 
+  Import took 0.034010 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000754 seconds.
-  path: Assets/AllForOne/Enemy/Enemy-Walk-Sheet/frame_01_delay-0.03s.png
-  artifactKey: Guid(aca679c1cea06d6458203207f2578d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllForOne/Enemy/Enemy-Walk-Sheet/frame_01_delay-0.03s.png using Guid(aca679c1cea06d6458203207f2578d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a2016b2289a76b097ddd8f38d9578ba') in 0.024370 seconds 
-  Import took 0.030495 seconds .
+  Time since last request: 0.000379 seconds.
+  path: Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_10_delay-0.03s.png
+  artifactKey: Guid(bce4287c8d9410c4bae328b5272fd607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_10_delay-0.03s.png using Guid(bce4287c8d9410c4bae328b5272fd607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7825616af1e6a91a8294dd04eefa543e') in 0.030715 seconds 
+  Import took 0.034872 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.470143 seconds.
-  path: Assets/AllForOne/Enemy/EnemyAnimations
-  artifactKey: Guid(7be0e10a9b68b4e4e9ae424a7699ae29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllForOne/Enemy/EnemyAnimations using Guid(7be0e10a9b68b4e4e9ae424a7699ae29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44014d42cc35618fe345f61daf385d85') in 0.009897 seconds 
-  Import took 0.014141 seconds .
+  Time since last request: 0.000278 seconds.
+  path: Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_06_delay-0.03s.png
+  artifactKey: Guid(d50dfba58e2ffb644bb470342ac435a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_06_delay-0.03s.png using Guid(d50dfba58e2ffb644bb470342ac435a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8d63a1f6398925351bf354dc4b7d651') in 0.025757 seconds 
+  Import took 0.029642 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.955892 seconds.
-  path: Assets/AllForOne/Animations/Player/Jump_Sprite.png
-  artifactKey: Guid(0fd199fe8f65bf14593a153298db4c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllForOne/Animations/Player/Jump_Sprite.png using Guid(0fd199fe8f65bf14593a153298db4c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52633ae11785be541a27567b6bfff672') in 0.075471 seconds 
-  Import took 0.081922 seconds .
+  Time since last request: 0.000271 seconds.
+  path: Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_02_delay-0.03s.png
+  artifactKey: Guid(909fd63dab52f1343899e5842eef1a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_02_delay-0.03s.png using Guid(909fd63dab52f1343899e5842eef1a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '253b9fb61b4b77e4b62faa36013ac169') in 0.030969 seconds 
+  Import took 0.034791 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.400079 seconds.
-  path: Assets/AllForOne/Animations/Player/Enemy-Attack-Sheet
-  artifactKey: Guid(65f6f095b2408f14fa7042f6314c5a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllForOne/Animations/Player/Enemy-Attack-Sheet using Guid(65f6f095b2408f14fa7042f6314c5a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4721f266df4f71a62b131a3a7151eb0e') in 0.005273 seconds 
-  Import took 0.009779 seconds .
+  Time since last request: 0.000247 seconds.
+  path: Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_01_delay-0.03s.png
+  artifactKey: Guid(ab04c67f1d119464d86296f0f3a0ea4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_01_delay-0.03s.png using Guid(ab04c67f1d119464d86296f0f3a0ea4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b196ffdf11c764c659d98d4f3c4fda') in 0.026044 seconds 
+  Import took 0.030094 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.071612 seconds.
-  path: Assets/AllForOne/Animations/Player/Enemy-Attack-Sheet/frame_00_delay-0.03s.png
-  artifactKey: Guid(7d80c60c0095a9244a4c181b05d25308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllForOne/Animations/Player/Enemy-Attack-Sheet/frame_00_delay-0.03s.png using Guid(7d80c60c0095a9244a4c181b05d25308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93469431a63cc0ba5fcc38330fb03b7a') in 0.021955 seconds 
-  Import took 0.027222 seconds .
+  Time since last request: 0.000242 seconds.
+  path: Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_09_delay-0.03s.png
+  artifactKey: Guid(f198a0d0840140943a90fb53a691bb47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_09_delay-0.03s.png using Guid(f198a0d0840140943a90fb53a691bb47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ccbb92eb643a703db81eca245a59994') in 0.030791 seconds 
+  Import took 0.033971 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000529 seconds.
-  path: Assets/AllForOne/Animations/Player/Enemy-Attack-Sheet/frame_12_delay-0.03s.png
-  artifactKey: Guid(1302367c2e1b72f4db13a136fe0b9db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllForOne/Animations/Player/Enemy-Attack-Sheet/frame_12_delay-0.03s.png using Guid(1302367c2e1b72f4db13a136fe0b9db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c30e50c4f9e977574a8a28ac7b6fbcd') in 0.026726 seconds 
-  Import took 0.031399 seconds .
+  Time since last request: 0.000281 seconds.
+  path: Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_11_delay-0.03s.png
+  artifactKey: Guid(124e8485b825f3344b1821d72271102e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_11_delay-0.03s.png using Guid(124e8485b825f3344b1821d72271102e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fed75e0c2b6b0736451ca177c347526a') in 0.031113 seconds 
+  Import took 0.035019 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000800 seconds.
-  path: Assets/AllForOne/Animations/Player/Enemy-Attack-Sheet/frame_07_delay-0.03s.png
-  artifactKey: Guid(8a48961d6221e894784a98b4ecd99744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllForOne/Animations/Player/Enemy-Attack-Sheet/frame_07_delay-0.03s.png using Guid(8a48961d6221e894784a98b4ecd99744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f07665b167c4cec38fff7739f840b60d') in 0.026045 seconds 
-  Import took 0.030719 seconds .
+  Time since last request: 0.000346 seconds.
+  path: Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_03_delay-0.03s.png
+  artifactKey: Guid(3fd49f01baa9430448bdee551e713323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllForOne/Enemy/Enemy-Walk-Sheet/Enemy-Attack-Sheet/frame_03_delay-0.03s.png using Guid(3fd49f01baa9430448bdee551e713323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d7c324a89c847f348295d98960ae45') in 0.027265 seconds 
+  Import took 0.030854 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000599 seconds.
-  path: Assets/AllForOne/Animations/Player/Enemy-Attack-Sheet/frame_02_delay-0.03s.png
-  artifactKey: Guid(68ad14385a06e604fa2d92a6b92d8507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllForOne/Animations/Player/Enemy-Attack-Sheet/frame_02_delay-0.03s.png using Guid(68ad14385a06e604fa2d92a6b92d8507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63cffabea416b66159449399adeeb643') in 0.023098 seconds 
-  Import took 0.027172 seconds .
+  Time since last request: 7.808979 seconds.
+  path: Assets/AllForOne/Enemy/EnemyAnimations/Enemy.controller
+  artifactKey: Guid(434818596cbb375448f7f8725b27a5f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllForOne/Enemy/EnemyAnimations/Enemy.controller using Guid(434818596cbb375448f7f8725b27a5f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9454a1d4607554d9641b64f9f1cf2c6') in 0.012486 seconds 
+  Import took 0.016677 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000528 seconds.
-  path: Assets/AllForOne/Animations/Player/Enemy-Attack-Sheet/frame_01_delay-0.03s.png
-  artifactKey: Guid(deca3a55f2117f74aaf5ff3f06242f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllForOne/Animations/Player/Enemy-Attack-Sheet/frame_01_delay-0.03s.png using Guid(deca3a55f2117f74aaf5ff3f06242f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff03a3086060cafd60f1dfcce694af7') in 0.021499 seconds 
-  Import took 0.025798 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001197 seconds.
-  path: Assets/AllForOne/Animations/Player/Enemy-Attack-Sheet/frame_05_delay-0.03s.png
-  artifactKey: Guid(570a5aa8f8a97e544b5b3cd73d3cb4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllForOne/Animations/Player/Enemy-Attack-Sheet/frame_05_delay-0.03s.png using Guid(570a5aa8f8a97e544b5b3cd73d3cb4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd521eabb974b352efb4d8d4f79c757') in 0.022920 seconds 
-  Import took 0.028121 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000535 seconds.
-  path: Assets/AllForOne/Animations/Player/Enemy-Attack-Sheet/frame_03_delay-0.03s.png
-  artifactKey: Guid(65918d212ec12b04e8c11b387f4f18fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllForOne/Animations/Player/Enemy-Attack-Sheet/frame_03_delay-0.03s.png using Guid(65918d212ec12b04e8c11b387f4f18fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '160879209fc1c7957d8111c3e7df24c9') in 0.022025 seconds 
-  Import took 0.026107 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000431 seconds.
-  path: Assets/AllForOne/Animations/Player/Enemy-Attack-Sheet/frame_06_delay-0.03s.png
-  artifactKey: Guid(267644617b03f9e429c5e98ef92f4be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllForOne/Animations/Player/Enemy-Attack-Sheet/frame_06_delay-0.03s.png using Guid(267644617b03f9e429c5e98ef92f4be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a639df9d98303c52195d95a817c40112') in 0.020914 seconds 
-  Import took 0.024664 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000526 seconds.
-  path: Assets/AllForOne/Animations/Player/Enemy-Attack-Sheet/frame_10_delay-0.03s.png
-  artifactKey: Guid(59f0a04c6e79b124c9de71b119485e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllForOne/Animations/Player/Enemy-Attack-Sheet/frame_10_delay-0.03s.png using Guid(59f0a04c6e79b124c9de71b119485e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff9fff7bd16dbce898c84555e0ddd13f') in 0.023877 seconds 
-  Import took 0.028115 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000638 seconds.
-  path: Assets/AllForOne/Animations/Player/Enemy-Attack-Sheet/frame_08_delay-0.03s.png
-  artifactKey: Guid(129a602353ab48c44859ceeb4bbc3b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllForOne/Animations/Player/Enemy-Attack-Sheet/frame_08_delay-0.03s.png using Guid(129a602353ab48c44859ceeb4bbc3b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '797cd0ba10055989769fc8995f37e363') in 0.021279 seconds 
-  Import took 0.025754 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000435 seconds.
-  path: Assets/AllForOne/Animations/Player/Enemy-Attack-Sheet/frame_11_delay-0.03s.png
-  artifactKey: Guid(ed4ef07be13268d4e9afc0a48dd53300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllForOne/Animations/Player/Enemy-Attack-Sheet/frame_11_delay-0.03s.png using Guid(ed4ef07be13268d4e9afc0a48dd53300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9f24dbd803a64c095a063aca43b1e2c') in 0.023538 seconds 
-  Import took 0.028534 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000708 seconds.
-  path: Assets/AllForOne/Animations/Player/Enemy-Attack-Sheet/frame_09_delay-0.03s.png
-  artifactKey: Guid(62173362799145c4388d820cca1fc9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllForOne/Animations/Player/Enemy-Attack-Sheet/frame_09_delay-0.03s.png using Guid(62173362799145c4388d820cca1fc9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f365a4876aa19feea75c8f203b7ef0ee') in 0.025745 seconds 
-  Import took 0.030320 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000641 seconds.
-  path: Assets/AllForOne/Animations/Player/Enemy-Attack-Sheet/frame_04_delay-0.03s.png
-  artifactKey: Guid(37b5dc9ea4b95dd4ebd1344e4447e245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllForOne/Animations/Player/Enemy-Attack-Sheet/frame_04_delay-0.03s.png using Guid(37b5dc9ea4b95dd4ebd1344e4447e245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb111f212458e90959d1d8afbce57267') in 0.025969 seconds 
-  Import took 0.030436 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003967 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.868 seconds
-Domain Reload Profiling:
-	ReloadAssembly (868ms)
-		BeginReloadAssembly (91ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (726ms)
-			LoadAssemblies (73ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (230ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (293ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (179ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2193 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.8 MB.
-System memory in use after: 99.9 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2658.
-Total: 2.300300 ms (FindLiveObjects: 0.120500 ms CreateObjectMapping: 0.033900 ms MarkObjects: 2.128300 ms  DeleteObjects: 0.016000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 59.186015 seconds.
-  path: Assets/AllForOne/Animations/Player/PlayerWalkAnimation.anim
-  artifactKey: Guid(c9c28040b2b7aca42b29838caf78cae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllForOne/Animations/Player/PlayerWalkAnimation.anim using Guid(c9c28040b2b7aca42b29838caf78cae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d4d99f4c64095ee2a2cbe5b84158ef8') in 0.019412 seconds 
-  Import took 0.022343 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.713204 seconds.
-  path: Assets/AllForOne/Animations/Player/Walk_Sprite_0.controller
-  artifactKey: Guid(5910cd43b7c60c14883c608122c1c10a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllForOne/Animations/Player/Walk_Sprite_0.controller using Guid(5910cd43b7c60c14883c608122c1c10a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d654d97d38f7001a695adc889daf85') in 0.008834 seconds 
-  Import took 0.012222 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004569 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.857 seconds
-Domain Reload Profiling:
-	ReloadAssembly (857ms)
-		BeginReloadAssembly (99ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (709ms)
-			LoadAssemblies (71ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (245ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (258ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (86ms)
-				ProcessInitializeOnLoadAttributes (152ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2193 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.9 MB.
-System memory in use after: 100.0 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2660.
-Total: 2.532700 ms (FindLiveObjects: 0.137500 ms CreateObjectMapping: 0.034600 ms MarkObjects: 2.341900 ms  DeleteObjects: 0.017100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 116.201753 seconds.
-  path: Assets/AllForOne/Animations/Player/PlayerIdleAnimation.anim
-  artifactKey: Guid(411e9bf583b1a2942b47e47518a0a166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllForOne/Animations/Player/PlayerIdleAnimation.anim using Guid(411e9bf583b1a2942b47e47518a0a166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36d3bd342a06bd9f4d05eb857669dcb4') in 0.014872 seconds 
-  Import took 0.018537 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.004042 seconds.
-  path: Assets/AllForOne/Animations/Player/PlayerJumpAnimation.anim
-  artifactKey: Guid(4b7317978ec8f584794b7cd438122c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllForOne/Animations/Player/PlayerJumpAnimation.anim using Guid(4b7317978ec8f584794b7cd438122c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfcab78f472c7902f766eab59c414943') in 0.006494 seconds 
-  Import took 0.012608 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005438 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.957 seconds
-Domain Reload Profiling:
-	ReloadAssembly (958ms)
-		BeginReloadAssembly (96ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (800ms)
-			LoadAssemblies (77ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (296ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (261ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (84ms)
-				ProcessInitializeOnLoadAttributes (152ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2193 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.9 MB.
-System memory in use after: 100.0 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2662.
-Total: 2.307700 ms (FindLiveObjects: 0.116900 ms CreateObjectMapping: 0.039600 ms MarkObjects: 2.115200 ms  DeleteObjects: 0.035100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
