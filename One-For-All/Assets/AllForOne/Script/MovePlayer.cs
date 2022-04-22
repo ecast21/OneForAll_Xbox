@@ -7,6 +7,7 @@ public class MovePlayer : MonoBehaviour
 
 	public bool isJumping = false;
 	public bool isGrounded;
+	public bool isGrimp;
 
 	public Rigidbody2D rb;
 	public Animator anim;
@@ -17,45 +18,59 @@ public class MovePlayer : MonoBehaviour
 	public LayerMask collisionLayers;
 	public SpriteRenderer spriteRenderer;
 	private float horizontalMovement;
+	private float verticalMovement;
+
+	public Animator BL;
 
 	void Update()
 	{
-		isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, collisionLayers);
 
-		 horizontalMovement = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime;
+		horizontalMovement = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime;
+		verticalMovement = Input.GetAxis("Vertical") * moveSpeed * Time.deltaTime;
 
 		if(Input.GetButtonDown("Jump") && isGrounded)
 		{
 			isJumping = true;
+			anim.Play("Jump");
 
 		}
-			
+
 
 		Flip(rb.velocity.x);
 
 		float characterVelocity = Mathf.Abs(rb.velocity.x);
 		anim.SetFloat("Speed", characterVelocity);
+		anim.SetBool("isGrimp", isGrimp);
 
 	}
 
 	void FixedUpdate()
 	{
-
-		MoPlayer(horizontalMovement);
+		isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, collisionLayers);
+		MoPlayer(horizontalMovement, verticalMovement);
 
 	}
 
-	void MoPlayer(float _horizontalMovement)
+	void MoPlayer(float _horizontalMovement, float _verticalMovement)
 	{
-		Vector3 targetVelocity = new Vector2(_horizontalMovement, rb.velocity.y);
-		rb.velocity = Vector3.SmoothDamp(rb.velocity, targetVelocity, ref velocity, .05f);
-
-		if(isJumping == true)
+		if(!isGrimp)
 		{
-			rb.AddForce(new Vector2(0f, jumpForce));
-			isJumping = false;
+			Vector3 targetVelocity = new Vector2(_horizontalMovement, rb.velocity.y);
+			rb.velocity = Vector3.SmoothDamp(rb.velocity, targetVelocity, ref velocity, .05f);
 
+			if(isJumping == true)
+			{
+				rb.AddForce(new Vector2(0f, jumpForce));
+				isJumping = false;
+
+			}
 		}
+		else
+		{
+			Vector3 targetVelocity = new Vector2(rb.velocity.y, _verticalMovement);
+			rb.velocity = Vector3.SmoothDamp(rb.velocity, targetVelocity, ref velocity, .05f);
+		}
+
 	}
 
 	void Flip(float _velocity)
@@ -63,10 +78,12 @@ public class MovePlayer : MonoBehaviour
 		if(_velocity > 0.1f)
 		{
 			spriteRenderer.flipX = false;
+			BL.Play("Y");
 		}
 		else if(_velocity < -0.1f)
 		{
 			spriteRenderer.flipX = true;
+			BL.Play("X");
 		}
 
 	}
