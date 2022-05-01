@@ -13,6 +13,7 @@ public class PlayerAttack : MonoBehaviour
 	public float attackRangeY;
 	public int damage;
 	public Animator playerAnim;
+	public PowerT PowerT;
 
 	// Start is called before the first frame update
 	void Start()
@@ -33,13 +34,14 @@ public class PlayerAttack : MonoBehaviour
 			for(int i = 0; i < enemiesToDamage.Length; i++)
 			{
 				enemiesToDamage[i].GetComponent<Enemy>().TakeDamage(damage);
+				PowerT.Launch();
 		    }
-		  }
+
 			timeBtwAttack = startTimeBtAttack;
-		}
-	  else
-	   {
-		timeBtwAttack -= Time.deltaTime;
+		  }
+
+		}else{
+		   timeBtwAttack -= Time.deltaTime;
 	   }
 	}
 

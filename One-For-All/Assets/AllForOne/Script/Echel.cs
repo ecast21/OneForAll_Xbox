@@ -27,7 +27,7 @@ public class Echel : MonoBehaviour
 				return;
 		 }
 
-		 if(isInRange && Input.GetKeyDown(KeyCode.A))
+		 if(isInRange && Input.GetKeyDown(KeyCode.B))
 		 {
 				movePlayer.isGrimp = true;
 		 }

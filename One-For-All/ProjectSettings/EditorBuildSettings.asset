@@ -6,6 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/AllForOne/AllForOne/Scene/Intro.unity
+    guid: 5dd520188e9c95b48872f2c74479886a
+  - enabled: 1
+    path: Assets/AllForOne/AllForOne/Scene/Intro 1.unity
+    guid: b6b76b6e966c99041b8eaba85a700147
+  - enabled: 1
+    path: Assets/AllForOne/AllForOne/Scene/Intro 2.unity
+    guid: 329a46c78a4694842b017da66b06f33c
+  - enabled: 1
+    path: Assets/AllForOne/AllForOne/Scene/MainMenu.unity
+    guid: c09f4b0b2a9226946aa44a3dd8ffdfa6
+  - enabled: 1
+    path: Assets/AllForOne/AllForOne/Scene/Stage.unity
+    guid: 4575a5ddc603d2149863ee7245e26d50
   m_configObjects: {}

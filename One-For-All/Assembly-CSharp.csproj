@@ -47,9 +47,14 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\AllForOne\AllForOne\MainMenu\Scripts\Main Menu Scripts\MainMenuController.cs" />
      <Compile Include="Assets\AllForOne\Script\DegatsPlayer.cs" />
      <Compile Include="Assets\AllForOne\Script\CameraFollow.cs" />
+     <Compile Include="Assets\AllForOne\Script\ChangeSceneAfterDelayScript.cs" />
+     <Compile Include="Assets\AllForOne\Script\ChangeSceneOnClickScript.cs" />
+     <Compile Include="Assets\AllForOne\AllForOne\MainMenu\Pause\PauseMain.cs" />
      <Compile Include="Assets\AllForOne\Script\Enemy.cs" />
+     <Compile Include="Assets\AllForOne\Script\PowerT.cs" />
      <Compile Include="Assets\AllForOne\Script\PlayerController.cs" />
      <Compile Include="Assets\LightningBolt\LightningBoltScript.cs" />
      <Compile Include="Assets\AllForOne\Script\Echel.cs" />
@@ -57,10 +62,32 @@
      <Compile Include="Assets\AllForOne\Script\PlayerAttack.cs" />
      <Compile Include="Assets\AllForOne\Script\MovePlayer.cs" />
      <Compile Include="Assets\AllForOne\Script\PlayerHealth.cs" />
+     <Compile Include="Assets\AllForOne\AllForOne\MainMenu\Resources\Prefabs\LevelLoader.cs" />
      <Compile Include="Assets\AllForOne\Script\HealthBar.cs" />
      <Compile Include="Assets\Eddie&apos;s Folder\Scripts\EnemyAI.cs" />
      <Compile Include="Assets\AllForOne\Script\EnemyPatrol.cs" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\LightningBolt\Readme.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>

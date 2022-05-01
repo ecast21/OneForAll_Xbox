@@ -32,9 +32,7 @@ public class MovePlayer : MonoBehaviour
 		{
 			isJumping = true;
 			anim.Play("Jump");
-
 		}
-
 
 		Flip(rb.velocity.x);
 
@@ -67,7 +65,7 @@ public class MovePlayer : MonoBehaviour
 		}
 		else
 		{
-			Vector3 targetVelocity = new Vector2(rb.velocity.y, _verticalMovement);
+			Vector3 targetVelocity = new Vector2(0, _verticalMovement);
 			rb.velocity = Vector3.SmoothDamp(rb.velocity, targetVelocity, ref velocity, .05f);
 		}
 

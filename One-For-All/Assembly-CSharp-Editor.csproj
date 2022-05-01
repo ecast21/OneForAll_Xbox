@@ -48,6 +48,8 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\LightningBolt\Editor\LightningBoltEditor.cs" />
+     <Compile Include="Assets\AllForOne\AllForOne\MainMenu\Scripts\Editor\EMM_AddCanvases.cs" />
+     <Compile Include="Assets\AllForOne\AllForOne\MainMenu\Scripts\Main Menu Scripts\Editor\MainMenuControllerEditor.cs" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
