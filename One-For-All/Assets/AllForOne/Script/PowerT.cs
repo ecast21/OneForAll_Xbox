@@ -8,6 +8,9 @@ public class PowerT : MonoBehaviour
 	public static Image Barre;
 	public float max { get; set; }
 
+	public GameObject Perso;
+	public GameObject Buton;
+
 	private float Valeur;
 	public float valeur
 	{
@@ -32,10 +35,29 @@ public class PowerT : MonoBehaviour
 
 	}
 
+
+
 	public void Launch()
 	{
 		valeur +=3;
 
+	}
+
+
+
+	public void Launch1()
+	{
+		valeur -=200;
+
+	}
+
+	void Update()
+	{
+		if(valeur>=80)
+		{
+			Buton.SetActive(true);
+			Perso.GetComponent<AttackSpécial>().enabled=true;
+		}
 	}
 
 }

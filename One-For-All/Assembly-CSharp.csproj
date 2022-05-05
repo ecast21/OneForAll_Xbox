@@ -49,21 +49,25 @@
   <ItemGroup>
      <Compile Include="Assets\AllForOne\AllForOne\MainMenu\Scripts\Main Menu Scripts\MainMenuController.cs" />
      <Compile Include="Assets\AllForOne\Script\DegatsPlayer.cs" />
+     <Compile Include="Assets\Eddie&apos;s Folder\Scripts\DeathFinishedEvent.cs" />
      <Compile Include="Assets\AllForOne\Script\CameraFollow.cs" />
      <Compile Include="Assets\AllForOne\Script\ChangeSceneAfterDelayScript.cs" />
      <Compile Include="Assets\AllForOne\Script\ChangeSceneOnClickScript.cs" />
      <Compile Include="Assets\AllForOne\AllForOne\MainMenu\Pause\PauseMain.cs" />
+     <Compile Include="Assets\EnemyHealth.cs" />
      <Compile Include="Assets\AllForOne\Script\Enemy.cs" />
      <Compile Include="Assets\AllForOne\Script\PowerT.cs" />
      <Compile Include="Assets\AllForOne\Script\PlayerController.cs" />
      <Compile Include="Assets\LightningBolt\LightningBoltScript.cs" />
      <Compile Include="Assets\AllForOne\Script\Echel.cs" />
      <Compile Include="Assets\AllForOne\Script\Detruit.cs" />
+     <Compile Include="Assets\AllForOne\Script\AttackSpécial.cs" />
      <Compile Include="Assets\AllForOne\Script\PlayerAttack.cs" />
      <Compile Include="Assets\AllForOne\Script\MovePlayer.cs" />
      <Compile Include="Assets\AllForOne\Script\PlayerHealth.cs" />
      <Compile Include="Assets\AllForOne\AllForOne\MainMenu\Resources\Prefabs\LevelLoader.cs" />
      <Compile Include="Assets\AllForOne\Script\HealthBar.cs" />
+     <Compile Include="Assets\Eddie&apos;s Folder\Scripts\Bullet.cs" />
      <Compile Include="Assets\Eddie&apos;s Folder\Scripts\EnemyAI.cs" />
      <Compile Include="Assets\AllForOne\Script\EnemyPatrol.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
