@@ -23520,7 +23520,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -4.163277, y: 0.4033327}
+  m_Offset: {x: -4.054621, y: 0.4033327}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -23531,7 +23531,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.4009094, y: 26.461493}
+  m_Size: {x: 2.1835966, y: 26.461493}
   m_EdgeRadius: 0
 --- !u!1 &725158763
 GameObject:
@@ -25259,7 +25259,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 747980eaf28376e48b6a71f0ebfdf35b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Health: 15
+  Health: 8
   Enem: {fileID: 73566780}
   DamEffect: {fileID: 106988, guid: b7c81c0198663374e8148ed93bb01726, type: 3}
 --- !u!70 &1735603401
@@ -25540,7 +25540,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 747980eaf28376e48b6a71f0ebfdf35b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Health: 30
+  Health: 13
   Enem: {fileID: 738055074}
   DamEffect: {fileID: 106988, guid: b7c81c0198663374e8148ed93bb01726, type: 3}
 --- !u!70 &1812923669
@@ -26447,7 +26447,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 747980eaf28376e48b6a71f0ebfdf35b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Health: 40
+  Health: 26
   Enem: {fileID: 1714884427}
   DamEffect: {fileID: 106988, guid: b7c81c0198663374e8148ed93bb01726, type: 3}
 --- !u!70 &2052697043
@@ -98019,7 +98019,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -6.6448364, y: -0.5683489}
+  m_Offset: {x: -6.53096, y: -0.5683489}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -98030,7 +98030,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.0286865, y: 26.356287}
+  m_Size: {x: 2.8009338, y: 26.356287}
   m_EdgeRadius: 0
 --- !u!1 &4353149609004882645
 GameObject:
@@ -98313,7 +98313,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 747980eaf28376e48b6a71f0ebfdf35b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Health: 15
+  Health: 8
   Enem: {fileID: 5658713818159482465}
   DamEffect: {fileID: 106988, guid: b7c81c0198663374e8148ed93bb01726, type: 3}
 --- !u!70 &5658713818247754968
@@ -98350,7 +98350,7 @@ MonoBehaviour:
   - {fileID: 459174760}
   - {fileID: 1979095677}
   attackRange: 30
-  agroRange: 0
+  agroRange: 40
   moveSpeed: 8
   startTimeBtwShots: 0.7
   currentHealth: 0
