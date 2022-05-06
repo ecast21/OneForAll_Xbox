@@ -26447,7 +26447,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 747980eaf28376e48b6a71f0ebfdf35b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Health: 26
+  Health: 29
   Enem: {fileID: 1714884427}
   DamEffect: {fileID: 106988, guid: b7c81c0198663374e8148ed93bb01726, type: 3}
 --- !u!70 &2052697043
