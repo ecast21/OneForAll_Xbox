@@ -69,7 +69,9 @@
      <Compile Include="Assets\AllForOne\Script\HealthBar.cs" />
      <Compile Include="Assets\Eddie&apos;s Folder\Scripts\Bullet.cs" />
      <Compile Include="Assets\Eddie&apos;s Folder\Scripts\EnemyAI.cs" />
+     <Compile Include="Assets\AllForOne\Script\ActSpe.cs" />
      <Compile Include="Assets\AllForOne\Script\EnemyPatrol.cs" />
+     <Compile Include="Assets\AllForOne\Script\DegatEnem.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\LightningBolt\Readme.txt" />

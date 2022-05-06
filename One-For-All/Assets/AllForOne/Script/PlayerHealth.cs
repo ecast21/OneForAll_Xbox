@@ -22,6 +22,7 @@ public class PlayerHealth : MonoBehaviour
 	{
 		currentHealth -= damage;
 		healthBar.SetHealth(currentHealth);
+		anim.Play("ReactHit");
 
 	}
 
@@ -32,6 +33,9 @@ public class PlayerHealth : MonoBehaviour
 			anim.Play("Dead");
 			GetComponent<PlayerAttack>().enabled = false;
 			GetComponent<MovePlayer>().enabled = false;
+			GetComponent<PlayerHealth>().enabled = false;
+			GetComponent<ActSpe>().enabled = false;
+			GetComponent<AttackSpécial>().enabled = false;
 			StartCoroutine("waitforsec");
 		}
 	}

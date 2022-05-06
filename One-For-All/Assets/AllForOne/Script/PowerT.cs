@@ -30,7 +30,7 @@ public class PowerT : MonoBehaviour
 	{
 		Barre = GetComponent<Image>();
 		max = 200;
-		valeur = 0;
+		valeur = 200;
 
 
 	}
@@ -53,10 +53,15 @@ public class PowerT : MonoBehaviour
 
 	void Update()
 	{
-		if(valeur>=80)
+		if(valeur==200)
 		{
 			Buton.SetActive(true);
-			Perso.GetComponent<AttackSpécial>().enabled=true;
+			Perso.GetComponent<ActSpe>().enabled=true;
+		}
+		if(valeur<200)
+		{
+			Buton.SetActive(false);
+			Perso.GetComponent<ActSpe>().enabled=false;
 		}
 	}
 
