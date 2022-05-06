@@ -30,7 +30,7 @@ public class PowerT : MonoBehaviour
 	{
 		Barre = GetComponent<Image>();
 		max = 200;
-		valeur = 200;
+		valeur = 0;
 
 
 	}
