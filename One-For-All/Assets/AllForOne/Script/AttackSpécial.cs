@@ -30,7 +30,7 @@ public class AttackSpécial : MonoBehaviour
 
 	IEnumerator waitforsec()
 	{
-		yield return new WaitForSeconds(25);
+		yield return new WaitForSeconds(20);
 		{
 
 			Perso.GetComponent<AttackSpécial>().enabled=false;
